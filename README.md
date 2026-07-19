@@ -1,6 +1,6 @@
 # Hi there, I'm Mark! 👋
 
-I am a Computer Science student at UBC with over a decade of prior professional engineering experience in system reliability, root-cause analysis, and technical risk modeling. My background is built on bridging complex physical infrastructure with robust, data-driven software solutions. 
+I am a Computer Science student at UBC with prior professional engineering experience in system reliability, statistical failure modeling, and quantitative risk analysis. My background is built on bridging complex physical infrastructure with robust, data-driven software solutions. 
 
 As I transition into software development, I am directing my studies and personal projects toward **High-Performance Systems Programming**, **Backend Data Pipelines**, and **Infrastructure/SRE**. I am eager to apply my interest in low-level memory optimization (C++), large-scale data manipulation (Python), and object-oriented design (Java) to build scalable, fault-tolerant software systems in a collaborative co-op environment.
 
@@ -31,4 +31,4 @@ As I transition into software development, I am directing my studies and persona
 * Implemented equivalence class partitioning and designed rigorous JUnit test cases to ensure broad test coverage and application stability.
 
 ---
-📫 **Let's Connect:** [www.linkedin.com/in/mark-y-cheung]
+📫 **Let's Connect:** [www.linkedin.com/in/mark-y-cheung] [mark.hwarang82@gmail.com]
