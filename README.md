@@ -6,7 +6,7 @@ As I transition into software development, I am directing my studies and persona
 
 ## 🏛️ Industry & Corporate Projects
 
-### [System Probabilistic Risk & Concurrent Failure Model (Corporate Case Study & Clone)](https://github.com/Mcmecs/System-Risk-Failure-Model)
+### [Probabilistic Risk Assessment Tool: A Technical Case Study](https://github.com/Mcmecs/System-Risk-Failure-Model)
 **Tech Stack:** Python, Pandas, NumPy, SciPy, OpenTURNS | **Domain:** Pipeline Reliability & Operational Risk
 * **The Problem:** How do we realistically quantify the shortfall risk of a major pipeline network to justify increased contract flow levels? Because conventional static, "worst-case scenario" methods artificially limit capacity, this project was engineered to unlock the system's true potential by dynamically modeling the interplay of varying market demand, base system capability, and concurrent equipment failures.
 * **Technical Execution:** Engineered a **Probabilistic Risk Assessment (PRA)** engine utilizing Monte Carlo simulations to project seasonal and annual shortfall days for executive decision-makers.
