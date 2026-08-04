@@ -6,16 +6,25 @@ As I transition into software development, I am directing my studies and persona
 
 ## 🏛️ Industry & Corporate Projects
 
-### [Probabilistic Risk Assessment Tool: A Technical Case Study](https://github.com/Mcmecs/System-Risk-Failure-Model)
+### [System Risk Model: A Technical Case Study](https://github.com/Mcmecs/System-Risk-Failure-Model)
 **Tech Stack:** Python, Pandas, NumPy, SciPy, OpenTURNS | **Domain:** Pipeline Reliability & Operational Risk
-* **The Problem:** How do we realistically quantify the shortfall risk of a major pipeline network to justify increased contract flow levels? Because conventional static, "worst-case scenario" methods artificially limit capacity, this project was engineered to unlock the system's true potential by dynamically modeling the interplay of varying market demand, base system capability, and concurrent equipment failures.
-* **Technical Execution:** Engineered a **Probabilistic Risk Assessment (PRA)** engine utilizing Monte Carlo simulations to project seasonal and annual shortfall days for executive decision-makers.
-* Architected a **Demand-Capacity Interference Model** to calculate system vulnerability. By fitting optimal continuous Probability Density Functions (PDFs) to historical market demand and base capacity using OpenTURNS and SciPy, the model evaluates the mathematical intersection (overlap) of the two distributions to accurately quantify failure probabilities.
-* Supplemented the continuous PDF models with discrete Bernoulli distributions (via NumPy/Pandas) based on recent operational availability data to predict concurrent compressor unit outage rates.
-* Implemented combinatorial algorithms utilizing Python's `itertools` library to calculate independent failure probabilities across multi-unit systems, algorithmically filtering over 33 million mutually exclusive outage events to eliminate computational memory bottlenecks.
-* *Note: This repository contains a technical whitepaper and a sanitized codebase using dummy data to demonstrate the system architecture while protecting proprietary corporate IP.*
+* **The Problem:** Quantified the probability of commercial shortfall risk to a pipeline network shipping natural gas to an export market. Because both market demand and system capability are inherently variable, failure is modeled mathematically by calculating the statistical overlap (interference) between their respective probability distributions.
+* **Technical Execution:** Developed a **Jupyter Notebook** to model market demand and system capability by fitting optimal continuous Probability Density Functions (PDFs) to historical market data and hydraulically simulated system data using OpenTURNS and SciPy.
+* Executed Monte Carlo simulations to evaluate the interference (overlap) of the two distributions, accurately calculating system vulnerability and failure probabilities.
+* Supplemented the continuous PDF models with discrete Bernoulli distributions (via NumPy and Pandas) based on recent operational availability data to predict the likelihood of concurrent compressor unit failures and calculate their impact on total system capacity.
+* *Note: This repository contains a technical whitepaper demonstrating the technical execution while protecting proprietary corporate IP.*
+
 
 ## 🚀 Personal & Academic Projects
+
+### [Capacity Risk Pipeline](https://github.com/Mcmecs/capacity-shortfall-model)
+**Tech Stack:** Python, SciPy, OpenTURNS, NumPy, Pandas, Pytest, Docker, GitHub Actions (CI), Streamlit, Seaborn, Matplotlib, YAML
+* Architected and engineered a fully automated, configuration-driven risk modeling pipeline, building a robust Object-Oriented software architecture from the ground up to replace procedural mathematical models.
+* Developed a custom **SciPy** statistical fitting module that dynamically ranks and selects optimal data distributions via the Kolmogorov-Smirnov (KS) test.
+* Built an interactive **Streamlit** web dashboard that dynamically bridges front-end user inputs with a high-performance **OpenTURNS** C++ simulation engine, allowing real-time visualization of capacity shortfall results.
+* Engineered a seamless data flow using **YAML** configurations to eliminate hardcoded variables, making the analytical pipeline entirely data-driven and easily extensible.
+* Containerized the application environment using **Docker** and implemented **GitHub Actions** for continuous integration and automated testing.
+
 
 ### [High-Performance C++ Matrix & Math Library](https://github.com/Mcmecs/Tensor_lib)
 **Tech Stack:** C++, SIMD, Pybind11, CMake, GoogleTest, Valgrind, GitHub Actions (CI)
