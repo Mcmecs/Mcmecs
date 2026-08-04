@@ -1,8 +1,8 @@
 # Hi there, I'm Mark! 👋
 
-I am a Computer Science student at UBC with prior professional engineering experience in system reliability, statistical failure modeling, and quantitative risk analysis. My background is built on bridging complex physical infrastructure with robust, data-driven software solutions. 
+I am a Computer Science student (BCS) at UBC with prior professional engineering experience in system reliability, statistical failure modeling, and quantitative risk analysis. My background is built on bridging complex physical infrastructure with robust, data-driven software solutions. 
 
-As I transition into software development, I am directing my studies and personal projects toward **High-Performance Systems Programming**, **Backend Data Pipelines**, and **Infrastructure/SRE**. I am eager to apply my interest in low-level memory optimization (C++), large-scale data manipulation (Python), and object-oriented design (Java) to build scalable, fault-tolerant software systems in a collaborative co-op environment.
+As I transition into software development, I am directing my studies and personal projects toward **High-Performance Systems Programming**, **Backend Data Pipelines**, and **Infrastructure/SRE**. I am eager to apply my interest in low-level memory optimization (C++), large-scale data manipulation (Python), and object-oriented design (Java) to build scalable, fault-tolerant software systems in a collaborative environment.
 
 ## 🏛️ Industry & Corporate Projects
 
@@ -19,7 +19,7 @@ As I transition into software development, I am directing my studies and persona
 
 ### [Capacity Risk Pipeline](https://github.com/Mcmecs/capacity-shortfall-model)
 **Tech Stack:** Python, SciPy, OpenTURNS, NumPy, Pandas, Pytest, Docker, GitHub Actions (CI), Streamlit, Seaborn, Matplotlib, YAML
-* Architected and engineered a fully automated, configuration-driven risk modeling pipeline, building a robust Object-Oriented software architecture from the ground up to replace procedural mathematical models.
+* Engineered a fully automated, configuration-driven risk modeling pipeline, building a robust Object-Oriented software architecture from the ground up to replace procedural mathematical models.
 * Developed a custom **SciPy** statistical fitting module that dynamically ranks and selects optimal data distributions via the Kolmogorov-Smirnov (KS) test.
 * Built an interactive **Streamlit** web dashboard that dynamically bridges front-end user inputs with a high-performance **OpenTURNS** C++ simulation engine, allowing real-time visualization of capacity shortfall results.
 * Engineered a seamless data flow using **YAML** configurations to eliminate hardcoded variables, making the analytical pipeline entirely data-driven and easily extensible.
