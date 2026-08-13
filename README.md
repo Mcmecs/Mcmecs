@@ -17,11 +17,12 @@ As I transition into software development, I am directing my studies and persona
 
 ## 🚀 Personal & Academic Projects
 
-### [Capacity Risk Pipeline](https://github.com/Mcmecs/capacity-shortfall-model)
+### [Capacity Risk Pipeline & Fleet Optimizer](https://github.com/Mcmecs/capacity-shortfall-model)
 **Tech Stack:** Python, SciPy, OpenTURNS, NumPy, Pandas, Pytest, Docker, GitHub Actions (CI), Streamlit, Seaborn, Matplotlib, YAML
 * Engineered a fully automated, configuration-driven risk modeling pipeline, building a robust Object-Oriented software architecture from the ground up to replace procedural mathematical models.
+* Developed a **Multi-Objective Optimization engine** that evaluates hundreds of server fleet combinations against SLA constraints to generate a Pareto Efficient Frontier, minimizing hardware CapEx/OpEx versus capacity deficit risk.
 * Developed a custom **SciPy** statistical fitting module that dynamically ranks and selects optimal data distributions via the Kolmogorov-Smirnov (KS) test.
-* Built an interactive **Streamlit** web dashboard that dynamically bridges front-end user inputs with a high-performance **OpenTURNS** C++ simulation engine, allowing real-time visualization of capacity shortfall results.
+* Built an interactive **Streamlit** web dashboard that dynamically bridges front-end user inputs with a custom Monte Carlo simulation engine, leveraging **OpenTURNS** copulas to model multivariate dependencies for real-time visualization of capacity deficits and optimal fleet allocations.
 * Engineered a seamless data flow using **YAML** configurations to eliminate hardcoded variables, making the analytical pipeline entirely data-driven and easily extensible.
 * Containerized the application environment using **Docker** and implemented **GitHub Actions** for continuous integration and automated testing.
 
